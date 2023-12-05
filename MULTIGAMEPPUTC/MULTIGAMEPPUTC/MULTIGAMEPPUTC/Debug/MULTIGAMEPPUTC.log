@@ -1,0 +1,23 @@
+﻿main.obj : error LNK2019: unresolved external symbol _SDL_CreateWindow referenced in function _SDL_main
+main.obj : error LNK2019: unresolved external symbol _SDL_PollEvent referenced in function _SDL_main
+main.obj : error LNK2019: unresolved external symbol _SDL_CreateRenderer referenced in function _SDL_main
+main.obj : error LNK2019: unresolved external symbol _SDL_SetRenderDrawColor referenced in function _SDL_main
+main.obj : error LNK2019: unresolved external symbol _SDL_RenderClear referenced in function _SDL_main
+main.obj : error LNK2019: unresolved external symbol _SDL_RenderFillRect referenced in function _SDL_main
+main.obj : error LNK2019: unresolved external symbol _SDL_RenderPresent referenced in function _SDL_main
+main.obj : error LNK2019: unresolved external symbol _SDL_Delay referenced in function _SDL_main
+main.obj : error LNK2019: unresolved external symbol _SDL_Init referenced in function _SDL_main
+main.obj : error LNK2019: unresolved external symbol _SDL_Quit referenced in function _SDL_main
+main.obj : error LNK2019: unresolved external symbol _SDLNet_Init referenced in function _SDL_main
+main.obj : error LNK2019: unresolved external symbol _SDLNet_Quit referenced in function _SDL_main
+main.obj : error LNK2019: unresolved external symbol _SDLNet_ResolveHost referenced in function _SDL_main
+main.obj : error LNK2019: unresolved external symbol _SDLNet_TCP_Open referenced in function _SDL_main
+main.obj : error LNK2019: unresolved external symbol _SDLNet_TCP_Send referenced in function "void __cdecl sendDirection(int)" (?sendDirection@@YAXH@Z)
+main.obj : error LNK2019: unresolved external symbol _SDLNet_TCP_Recv referenced in function _SDL_main
+main.obj : error LNK2019: unresolved external symbol _SDLNet_TCP_Close referenced in function _SDL_main
+main.obj : error LNK2019: unresolved external symbol _SDLNet_GetError referenced in function _SDL_main
+MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol _main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+D:\Mahasiswa\studio\SDL2-2.28.4\lib\x64\SDL2.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+D:\Mahasiswa\studio\SDL2-2.28.4\lib\x64\SDL2main.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+D:\Mahasiswa\studio\SDL2_net-2.2.0\lib\x64\SDL2_net.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+D:\Mahasiswa\PPut\Path\MULTIGAMEPPUTC\MULTIGAMEPPUTC\Debug\MULTIGAMEPPUTC.exe : fatal error LNK1120: 19 unresolved externals
